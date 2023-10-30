@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reletiveLocators.belowLocatingStrategy">
+      <class name="chromeDevTool.networkContition_1">
         <methods>
-          <include name="belowLocatorDemo_1"/>
+          <include name="networkContition_Demo"/>
+          <include name="emulateNetworkConnection"/>
         </methods>
-      </class> <!-- reletiveLocators.belowLocatingStrategy -->
+      </class> <!-- chromeDevTool.networkContition_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

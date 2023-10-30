@@ -15,7 +15,7 @@ public class belowLocatingStrategy {
 	@Test
 	public void belowLocatorDemo_1() 
 	{	
-		WebDriver driver 	= new ChromeDriver (); 
+		 WebDriver driver 	= new ChromeDriver (); 
 	    
 		 driver.get("https://www.webdriveruniversity.com/Contact-Us/contactus.html");
 		 
